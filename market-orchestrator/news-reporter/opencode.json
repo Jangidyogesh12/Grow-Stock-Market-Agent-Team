@@ -12,10 +12,10 @@
     },
     "searchapi": {
       "type": "remote",
-      "url": "https://www.searchapi.io/mcp?token=f7un76759NcLgvjKjTbkKyFp",
+      "url": "https://www.searchapi.io/mcp?token="SerpSPIKey",
       "enabled": true,
       "headers": {
-        "Authorization": "Bearer ejWsKQSEVaqru3bCZrZ8LDvB"
+        "Authorization": "Bearer SerpAPIKey"
       }
     }
   }
