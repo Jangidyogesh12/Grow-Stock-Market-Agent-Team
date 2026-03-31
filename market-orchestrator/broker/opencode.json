@@ -16,7 +16,7 @@
       "enabled": true,
       "oauth": false,
       "headers": {
-        "Authorization": "Bearer "Groww Api Key"
+        "Authorization": "Bearer Groww Api Key"
     }
   }
 }
