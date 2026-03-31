@@ -12,7 +12,7 @@
     },
     "searchapi": {
       "type": "remote",
-      "url": "https://www.searchapi.io/mcp?token="SerpSPIKey",
+      "url": "https://www.searchapi.io/mcp?token=SerpSPIKey",
       "enabled": true,
       "headers": {
         "Authorization": "Bearer SerpAPIKey"
