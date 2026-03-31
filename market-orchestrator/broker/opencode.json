@@ -1,0 +1,23 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "kernel": {
+      "type": "remote",
+      "url": "http://localhost:1153/mcp",
+      "enabled": true,
+      "oauth": false,
+      "headers": {
+        "directory": "broker"
+      }
+    },
+    "groww": {
+      "type": "remote",
+      "url": "https://mcp.groww.in/mcp",
+      "enabled": true,
+      "oauth": false,
+      "headers": {
+        "Authorization": "Bearer eyJraWQiOiJaTUtjVXciLCJhbGciOiJFUzI1NiJ9.eyJleHAiOjE3NzQ5MTcwMDAsImlhdCI6MTc3NDg1NTc0OSwibmJmIjoxNzc0ODU1NzQ5LCJzdWIiOiJ7XCJ0b2tlblJlZklkXCI6XCI4MTk1NjNiMS00YmM5LTRjODEtYWRiOC1lYTg1ZWY0ODA4NzJcIixcInZlbmRvckludGVncmF0aW9uS2V5XCI6XCJlMzFmZjIzYjA4NmI0MDZjODg3NGIyZjZkODQ5NTMxM1wiLFwidXNlckFjY291bnRJZFwiOlwiNGI4OWFjM2UtYjliYy00OThkLTliYmEtNjBkNTk2NWQwY2RiXCIsXCJkZXZpY2VJZFwiOlwiZmZkNDljZGYtNDNiNy01ZDc2LTlhNmQtMWIwYjlmNjczY2EyXCIsXCJzZXNzaW9uSWRcIjpcIjFiNDk0NzQxLWVlNGMtNDJlZi1hMjQxLWYwMzJhYWFiMThkZVwiLFwiYWRkaXRpb25hbERhdGFcIjpcIno1NC9NZzltdjE2WXdmb0gvS0EwYk0wMVFWQTlUUHI2bm44ZVI5NmRHUnRSTkczdTlLa2pWZDNoWjU1ZStNZERhWXBOVi9UOUxIRmtQejFFQisybTdRPT1cIixcInJvbGVcIjpcIm9yZGVyLWJhc2ljLGxpdmVfZGF0YS1iYXNpYyxub25fdHJhZGluZy1iYXNpYyxvcmRlcl9yZWFkX29ubHktYmFzaWNcIixcInNvdXJjZUlwQWRkcmVzc1wiOlwiMjQwMTo0OTAwOjg4OTg6OTIwNDo0MGI6MjE2MDozMTc2OmYxZWYsMTcyLjY4LjE1NS4xODMsMzUuMjQxLjIzLjEyM1wiLFwidHdvRmFFeHBpcnlUc1wiOjE3NzQ5MTcwMDAwMDAsXCJ2ZW5kb3JOYW1lXCI6XCJncm93d0FwaVwifSIsImlzcyI6ImFwZXgtYXV0aC1wcm9kLWFwcCJ9.LyiL328R4Llq1SzpVNDM1MO0Wnm08qYKRGn8tnjOLPPZ9bYxh30b04Ym4Jz3bVhWvOyPwv6PL9WP5euW7TSOiA"
+      }
+    }
+  }
+}

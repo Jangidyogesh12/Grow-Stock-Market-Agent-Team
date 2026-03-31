@@ -1,0 +1,11 @@
+{
+  "command": [
+    "opencode",
+    "run",
+    "You are an autonomous agent. Read @cron.md to see what to do."
+  ],
+  "period": "8,38 * * * *",
+  "logPath": "/.arkitec/run.log",
+  "tasksPath": "/.arkitec/tasks.json",
+  "apiKey": "news-reporterUraAkkOwlRXTRnLnwpblQdeCKllokXLgdUuWkuPExeMioKVTLWDcXegqULmCDHgh"
+}

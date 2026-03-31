@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "program": "network",
+      "task": "startup",
+      "references": "cron.md, programs/network.md, rules.md, responsibility.md",
+      "description": "Kernel startup for finance-tracker: review rules, responsibility, inbox, and current task state for this cycle.",
+      "status": "done",
+      "priority": "normal",
+      "createdAt": "2026-03-30T09:30:36.902Z",
+      "updatedAt": "2026-03-30T09:31:10.960Z",
+      "resolvedAt": "2026-03-30T09:31:10.960Z"
+    },
+    {
+      "id": 2,
+      "program": "network",
+      "task": "execute",
+      "references": "cron.md, programs/network.md, responsibility.md, kernel inbox/task state",
+      "description": "Cycle inspection complete: no unread inbox items, no active kernel tasks, no defined mission details in responsibility.md, and no concrete executable work identified for finance-tracker this cycle. Standing by for new work or mission definition.",
+      "status": "done",
+      "priority": "normal",
+      "createdAt": "2026-03-30T09:30:36.903Z",
+      "updatedAt": "2026-03-30T09:31:10.986Z",
+      "resolvedAt": "2026-03-30T09:31:10.986Z"
+    },
+    {
+      "id": 3,
+      "program": "network",
+      "task": "wrap-up",
+      "references": "programs/network.md, responsibility.md, deliverables/",
+      "description": "Wrap-up complete: startup, execute, and wrap-up reviewed. No deliverables created; no blockers beyond missing mission definition and absence of active work requests.",
+      "status": "done",
+      "priority": "normal",
+      "createdAt": "2026-03-30T09:30:36.904Z",
+      "updatedAt": "2026-03-30T09:31:14.497Z",
+      "resolvedAt": "2026-03-30T09:31:14.497Z"
+    }
+  ],
+  "nextId": 4
+}

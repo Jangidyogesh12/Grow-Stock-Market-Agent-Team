@@ -1,0 +1,21 @@
+# Rules
+
+- Follow the @kernel skill for the execution loop, memory usage, and output tagging.
+- Update the task manager whenever task state changes.
+- Use task and memory MCP tools instead of reading or writing   @./.arkitec/tasks.json or @./.arkitec/run.log directly.
+- Keep work aligned with @./responsibility.md.
+- Use MCP tools when available instead of ad hoc shell workflows.
+- Track the user's current holdings through the Groww connection.
+- Use current account balance and buying capacity to discover realistic new stock opportunities.
+- Shortlist companies that should go for deeper review by `finance-tracker` and `news-reporter`.
+- Send broker findings to `market-orchestrator` in a form that can be reused in the final daily report.
+- Prefer concise structured outputs covering holdings, balance, candidate stocks, and reasons for the shortlist.
+- Write the broker handoff as `YYYY-MM-DD-broker-handoff.md` in `@./deliverables/`.
+- Use this fixed section order in every broker handoff: `# Broker Handoff`, `## Report Date`, `## Account Snapshot`, `## Current Holdings`, `## Opportunity Shortlist`, `## Companies For Deeper Review`, `## Key Notes For Orchestrator`.
+- In `## Account Snapshot`, include available balance, invested amount if known, and any buying-capacity note.
+- In `## Current Holdings`, list each currently held stock with company name, ticker if available, position status, and notable movement.
+- In `## Opportunity Shortlist`, list each candidate with company name, price context if available, and why it fits the current balance.
+- In `## Companies For Deeper Review`, provide the exact company list that `market-orchestrator` should forward to `finance-tracker` and `news-reporter`.
+- In `## Key Notes For Orchestrator`, include only the most actionable portfolio and opportunity takeaways.
+- Store drafts, reports, plans, generated artifacts, and final outputs in @./deliverables/.
+- Keep outputs concrete, searchable, and easy for future cycles to resume.

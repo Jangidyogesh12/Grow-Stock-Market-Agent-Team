@@ -1,0 +1,29 @@
+# Rules
+
+- Follow the @kernel skill for the execution loop, memory usage, and output tagging.
+- Update the task manager whenever task state changes.
+- Use task and memory MCP tools instead of reading or writing   @./.arkitec/tasks.json or @./.arkitec/run.log directly.
+- Keep work aligned with @./responsibility.md.
+- Use MCP tools when available instead of ad hoc shell workflows.
+- Act as the central coordinator for `broker`, `news-reporter`, and `finance-tracker`.
+- Start the workflow by assigning `broker` to review current holdings, watch portfolio movement, and explore investable stock opportunities based on available account balance.
+- Wait for the broker's research before dispatching the relevant companies to `news-reporter` and `finance-tracker`.
+- Send the broker-shortlisted companies to `news-reporter` for important news research and to `finance-tracker` for financial research.
+- Wait for both `news-reporter` and `finance-tracker` to finish before producing the final output.
+- Orchestrate work in this sequence: `broker` first, then `news-reporter` and `finance-tracker`, then final orchestration output.
+- Prefer structured, reusable outputs that can be merged into a single daily report without rework.
+- Expect broker input as `YYYY-MM-DD-broker-handoff.md` and read `## Companies For Deeper Review` as the dispatch list.
+- Expect finance input as `YYYY-MM-DD-finance-handoff.md` and news input as `YYYY-MM-DD-news-handoff.md`.
+- Do not write the final report until the required broker, finance, and news handoff files for the current cycle are available or their absence is explicitly noted as a blocker.
+- Reuse the `## Key Notes For Orchestrator` sections from each agent when building the final markdown report.
+- Store dated markdown reports in `@./deliverables/daily-reports/`.
+- Store per-stock CSV files for current investments in `@./deliverables/stock-tracking/`.
+- Use filenames with ISO dates such as `2026-03-30-market-report.md`.
+- Name stock CSV files after the stock being tracked, for example `tcs.csv` or `infosys.csv`.
+- Always read the existing stock CSV first, then append the new row for the day.
+- Never overwrite prior stock-tracking history.
+- Create a new stock CSV only when no CSV exists yet for that stock.
+- If the report for today's date already exists, update that file instead of creating duplicates.
+- Use the combined broker, news, and finance findings to create the final daily report, company-wise view, and stock CSV updates.
+- Store drafts, reports, plans, generated artifacts, and final outputs in @./deliverables/.
+- Keep outputs concrete, searchable, and easy for future cycles to resume.

@@ -1,0 +1,15 @@
+{
+  "name": "market-orchestrator",
+  "description": "Orchestrates broker, finance, and news agents to produce dated daily market reports and maintain current-investment price tracking.",
+  "version": "1.0.0",
+  "email": "market-orchestrator-20da99f5-edab-4a54-8db4-defb777226e9@sentury.sh",
+  "capabilities": {},
+  "defaultInputModes": [
+    "sentury/network"
+  ],
+  "defaultOutputModes": [
+    "sentury/network"
+  ],
+  "skills": [],
+  "supportedInterfaces": []
+}

@@ -1,0 +1,39 @@
+[
+  {
+    "name": "market-orchestrator",
+    "description": "Orchestrates broker, finance, and news agents to produce dated daily market reports and maintain current-investment price tracking.",
+    "email": "market-orchestrator-20da99f5-edab-4a54-8db4-defb777226e9@sentury.sh",
+    "directory": "market-orchestrator",
+    "skills": [],
+    "subAgents": [
+      {
+        "name": "broker",
+        "email": "broker-b1497e33-b32e-4ddf-aa99-43619f3d59d7@sentury.sh",
+        "directory": "market-orchestrator/broker",
+        "skills": [],
+        "subAgents": []
+      },
+      {
+        "name": "finance-tracker",
+        "email": "finance-tracker-113a885f-e7f2-45d4-8d0b-77f4f5e5871b@sentury.sh",
+        "directory": "market-orchestrator/company-finance-tracker",
+        "skills": [],
+        "subAgents": []
+      },
+      {
+        "name": "news-reporter",
+        "email": "news-reporter-db3c2211-1dd1-45f5-be20-8eae36439699@sentury.sh",
+        "directory": "market-orchestrator/news-reporter",
+        "skills": [],
+        "subAgents": []
+      }
+    ]
+  },
+  {
+    "name": "news-reporter",
+    "email": "news-reporter-db3c2211-1dd1-45f5-be20-8eae36439699@sentury.sh",
+    "directory": "news-reporter",
+    "skills": [],
+    "subAgents": []
+  }
+]

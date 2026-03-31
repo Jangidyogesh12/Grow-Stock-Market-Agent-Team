@@ -1,0 +1,53 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "program": "network",
+      "task": "startup",
+      "references": "cron.md, programs/network.md, rules.md, responsibility.md",
+      "description": "Startup complete: rules/responsibility reviewed, no unread inbox items, no existing 2026-03-30 report found, execute task is next priority.",
+      "status": "done",
+      "priority": "high",
+      "createdAt": "2026-03-30T10:00:36.230Z",
+      "updatedAt": "2026-03-30T10:01:00.382Z",
+      "resolvedAt": "2026-03-30T10:01:00.382Z"
+    },
+    {
+      "id": 2,
+      "program": "network",
+      "task": "execute",
+      "references": "deliverables/daily-reports/2026-03-31-market-report.md; deliverables/stock-tracking/hdfcgold.csv; deliverables/stock-tracking/tatasteel.csv; deliverables/stock-tracking/ioc.csv; deliverables/stock-tracking/ashokley.csv",
+      "description": "2026-03-31 report finalized after finance handoff arrival. Created per-stock CSVs for HDFCGOLD, TATASTEEL, IOC, and ASHOKLEY and completed final cross-agent synthesis.",
+      "status": "done",
+      "priority": "high",
+      "createdAt": "2026-03-30T10:00:36.233Z",
+      "updatedAt": "2026-03-31T11:50:30.405Z",
+      "resolvedAt": "2026-03-31T11:50:30.405Z"
+    },
+    {
+      "id": 3,
+      "program": "network",
+      "task": "wrap-up",
+      "references": "programs/network.md",
+      "description": "Cycle wrapped: created initial 2026-03-30 report scaffold, sent update requests to broker/finance-tracker/news-reporter, and left execute blocked pending replies before CSV append.",
+      "status": "done",
+      "priority": "normal",
+      "createdAt": "2026-03-30T10:00:44.509Z",
+      "updatedAt": "2026-03-30T10:02:21.591Z",
+      "resolvedAt": "2026-03-30T10:02:21.591Z"
+    },
+    {
+      "id": 4,
+      "program": "network",
+      "task": "wrap-up",
+      "references": "deliverables/daily-reports/2026-03-31-market-report.md; deliverables/stock-tracking/",
+      "description": "Cycle wrapped with final 2026-03-31 report, current-holdings CSV initialization, and clear stance: GAIL best fresh idea, TATASTEEL strongest current positive holding signal, ASHOKLEY weakest held name.",
+      "status": "done",
+      "priority": "normal",
+      "createdAt": "2026-03-31T11:50:23.607Z",
+      "updatedAt": "2026-03-31T11:50:30.407Z",
+      "resolvedAt": "2026-03-31T11:50:30.407Z"
+    }
+  ],
+  "nextId": 5
+}

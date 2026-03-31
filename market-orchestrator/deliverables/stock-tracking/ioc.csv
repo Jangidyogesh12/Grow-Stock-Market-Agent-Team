@@ -1,0 +1,2 @@
+date,ticker,company,position_status,broker_signal,news_signal,finance_signal,orchestrator_stance,data_freshness
+2026-03-31,IOC,Indian Oil Corporation,deepest portfolio drawdown,only_average_if_thesis_improves,mixed,cheap_for_reason_weak_fcf_high_debt,hold_watch_avoid_aggressive_averaging,broker_stale_news_finance_current

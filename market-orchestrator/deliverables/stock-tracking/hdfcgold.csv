@@ -1,0 +1,2 @@
+date,ticker,company,position_status,broker_signal,news_signal,finance_signal,orchestrator_stance,data_freshness
+2026-03-31,HDFCGOLD,HDFC Gold ETF,strongest verified holding,portfolio cushion,neutral_to_mild_positive,not_covered_this_cycle,hold_defensive_cushion,broker_stale_news_current

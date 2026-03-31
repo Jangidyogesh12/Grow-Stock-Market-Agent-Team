@@ -1,0 +1,15 @@
+{
+  "name": "finance-tracker",
+  "description": "",
+  "version": "1.0.0",
+  "email": "finance-tracker-113a885f-e7f2-45d4-8d0b-77f4f5e5871b@sentury.sh",
+  "capabilities": {},
+  "defaultInputModes": [
+    "sentury/network"
+  ],
+  "defaultOutputModes": [
+    "sentury/network"
+  ],
+  "skills": [],
+  "supportedInterfaces": []
+}

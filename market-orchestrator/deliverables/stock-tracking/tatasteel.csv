@@ -1,0 +1,2 @@
+date,ticker,company,position_status,broker_signal,news_signal,finance_signal,orchestrator_stance,data_freshness
+2026-03-31,TATASTEEL,Tata Steel,profitable verified holding,constructive_medium_term_story,mild_positive,not_covered_this_cycle,hold_positive_watch,broker_stale_news_current
